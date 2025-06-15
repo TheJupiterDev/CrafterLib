@@ -1,0 +1,5 @@
+{
+  "function": "minecraft:set_components",
+  "components": {"!custom_data": {}},
+  "conditions": []
+}

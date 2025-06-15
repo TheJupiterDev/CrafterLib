@@ -1,0 +1,22 @@
+# Ran if a player has the custom GUI panes in their inventory.
+# If so, it clears those from their inventory, and resets the barrel.
+
+clear @p black_stained_glass_pane[minecraft:custom_data={"crafterlib.crafter_glass":1b}]
+
+data modify block ~ ~ ~ Items append value {Slot:3b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:4b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:5b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:6b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:7b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:12b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:14b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:15b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:16b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:17b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:21b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:22b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:23b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:24b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:25b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}
+data modify block ~ ~ ~ Items append value {Slot:26b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}}

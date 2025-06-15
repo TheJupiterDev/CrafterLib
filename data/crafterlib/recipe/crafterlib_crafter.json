@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "wlw",
+    "www"
+  ],
+  "key": {
+    "w": "#minecraft:planks",
+    "l": "#minecraft:logs"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+        "minecraft:item_name": {"text": "CrafterLib Crafter", "italic": false},
+        "minecraft:item_model": "crafterlib:crafterlib_crafter",
+        "entity_data": {
+            "id": "minecraft:item_frame",
+            "Tags": [
+                "crafterlib.crafterblock",
+                "crafterlib.block"
+            ],
+            "Facing": 1,
+            "Invulnerable": true,
+            "Invisible": true,
+            "Fixed": true
+        }
+    }
+  }
+}
