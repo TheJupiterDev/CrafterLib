@@ -1,4 +1,4 @@
-# Ran every tick - this is the main logic controller for the crafter.
+# Ran every tick for EACH (loaded? possibly?) CRAFTER - this is the main logic controller for the crafter.
 
 # Handle Break
 execute unless block ~ ~ ~ barrel run function crafterlib:crafterlib/cleanup
@@ -10,6 +10,9 @@ execute if items entity @p inventory.* minecraft:black_stained_glass_pane run fu
 execute if items entity @p armor.* minecraft:black_stained_glass_pane run function crafterlib:crafterlib/clear_player
 execute if items entity @p hotbar.* minecraft:black_stained_glass_pane run function crafterlib:crafterlib/clear_player
 execute if items entity @p player.cursor minecraft:black_stained_glass_pane run function crafterlib:crafterlib/clear_player
+
+# Handle (gross) Hoppers
+execute as @s run function crafterlib:crafterlib/check_hopper
 
 scoreboard players set @s crafterlib.success 0
 
