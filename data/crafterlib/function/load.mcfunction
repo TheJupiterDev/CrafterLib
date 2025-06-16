@@ -1,4 +1,4 @@
-tellraw @a {"text": "CrafterLib v0.1 - Loaded", "color":"red",bold:true}
+tellraw @a {"text": "CrafterLib v0.2 - Loaded", "color":"red",bold:true}
 
 # SCORES
 scoreboard objectives add crafterlib.craft dummy
