@@ -1,33 +1,51 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:item_frame",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {"text": "CrafterLib Crafter", "italic": false},
-                                "minecraft:item_model": "crafterlib:crafterlib_crafter",
-                                "entity_data": {
-                                    "id": "minecraft:item_frame",
-                                    "Tags": [
-                                        "crafterlib.crafterblock",
-                                        "crafterlib.block"
-                                    ],
-                                    "Facing": 1,
-                                    "Invulnerable": true,
-                                    "Invisible": true,
-                                    "Fixed": true
-                                }
-                            }
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "CrafterLib Crafter",
+                  "italic": false
+                },
+                "minecraft:item_model": "crafterlib:crafterlib_crafter",
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "Rotation": [
+                    0,
+                    0
+                  ],
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Tags": [
+                    "crafterlib.crafter",
+                    "crafterlib.crafterblock",
+                    "crafterlib.block"
+                  ],
+                  "equipment": {
+                    "head": {
+                      "id": "minecraft:armor_stand",
+                      "components": {
+                        "minecraft:item_model": "crafterlib:crafterlib_crafter"
+                      }
+                    }
+                  },
+                  "Invisible": true,
+                  "Marker": true,
+                  "NoBasePlate": true,
+                  "Small": false
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

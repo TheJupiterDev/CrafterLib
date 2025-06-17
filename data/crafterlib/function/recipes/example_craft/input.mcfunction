@@ -9,4 +9,4 @@
 #if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:stone",count:1}] \
 #run function crafterlib:recipes/example_craft/output
 
-execute if score @s crafterlib.items matches 1 if data block ~ ~ ~ Items[{id:"minecraft:stone",count:1}] run function crafterlib:recipes/example_craft/output
+execute if score @s crafterlib.items matches 1 if data block ~ ~ ~ Items[{id:"minecraft:stone"}] run function crafterlib:recipes/example_craft/output

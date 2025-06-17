@@ -8,7 +8,7 @@
                         "condition": "minecraft:match_tool",
                         "predicate": {
                             "items": [
-                                "minecraft:item_frame"
+                                "minecraft:armor_stand"
                             ]
                         }
                     }
@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "crafterlib:crafterlib_crafter/placed_item_frame"
+        "function": "crafterlib:crafterlib_crafter/placed"
     }
 }

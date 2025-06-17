@@ -1,0 +1,2 @@
+advancement revoke @s only crafterlib:placed_crafterlib_crafter
+execute as @e[type=armor_stand,nbt={Tags:["crafterlib.crafter","crafterlib.crafterblock","crafterlib.block"]},distance=..10] at @s run function crafterlib:crafterlib_crafter/setblock

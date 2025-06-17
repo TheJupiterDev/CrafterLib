@@ -7,7 +7,7 @@ kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:black_stained_glass_pane
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:barrel"}},limit=1,sort=nearest]
 
 # Kill the actual item display
-kill @e[type=item_display,tag=crafter_lib.crafterblock,distance=..1,limit=1,sort=nearest]
+kill @e[type=item_display,tag=crafterlib.crafterblock,distance=..1,limit=1,sort=nearest]
 
 # Kill any output items
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{crafterlib.output_item:1b}}}}]

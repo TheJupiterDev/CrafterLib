@@ -1,24 +1,14 @@
 # Ran after a completed craft. Resets the barrel.
 
-data modify block ~ ~ ~ Items set value [\
-{Slot:3b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:4b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:5b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:6b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:7b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:8b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:12b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:14b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:15b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:16b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:17b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:21b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:22b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:23b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:24b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:25b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-{Slot:26b,id:"minecraft:black_stained_glass_pane",count:1,components:{"minecraft:max_stack_size":1,"minecraft:tooltip_display":{hide_tooltip:true},"custom_data":{"crafterlib.crafter_glass":1b}}},\
-]
+item modify block ~ ~ ~ container.2 crafterlib:remove_one
+item modify block ~ ~ ~ container.3 crafterlib:remove_one
+item modify block ~ ~ ~ container.4 crafterlib:remove_one
+item modify block ~ ~ ~ container.11 crafterlib:remove_one
+item modify block ~ ~ ~ container.12 crafterlib:remove_one
+item modify block ~ ~ ~ container.13 crafterlib:remove_one
+item modify block ~ ~ ~ container.20 crafterlib:remove_one
+item modify block ~ ~ ~ container.21 crafterlib:remove_one
+item modify block ~ ~ ~ container.22 crafterlib:remove_one
 
 execute as @p run function crafterlib:crafterlib/clear_player_custom_data
 
