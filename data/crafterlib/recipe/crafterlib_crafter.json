@@ -10,38 +10,59 @@
     "l": "#minecraft:logs"
   },
   "result": {
-    "id": "minecraft:armor_stand",
+    "id": "minecraft:bat_spawn_egg",
     "components": {
       "minecraft:item_name": {
-        "text": "CrafterLib Crafter",
-        "italic": false
+        "italic": false,
+        "text": "CrafterLib Crafter"
       },
       "minecraft:item_model": "crafterlib:crafterlib_crafter",
       "minecraft:entity_data": {
-        "id": "minecraft:armor_stand",
+        "id": "minecraft:item_display",
         "Rotation": [
-          0,
+          -180,
           0
         ],
-        "NoGravity": true,
-        "Invulnerable": true,
         "Tags": [
           "crafterlib.crafter",
           "crafterlib.crafterblock",
           "crafterlib.block"
         ],
-        "equipment": {
-          "head": {
-            "id": "minecraft:armor_stand",
-            "components": {
-              "minecraft:item_model": "crafterlib:crafterlib_crafter"
-            }
-          }
+        "brightness": {
+          "sky": 15,
+          "block": 0
         },
-        "Invisible": true,
-        "Marker": true,
-        "NoBasePlate": true,
-        "Small": false
+        "transformation": {
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "translation": [
+            0,
+            0.5,
+            0
+          ],
+          "scale": [
+            1.001,
+            1.001,
+            1.001
+          ]
+        },
+        "item": {
+          "id": "minecraft:flint",
+          "count": 1,
+          "components": {
+            "minecraft:item_model": "crafterlib:crafterlib_crafter"
+          }
+        }
       }
     }
   }

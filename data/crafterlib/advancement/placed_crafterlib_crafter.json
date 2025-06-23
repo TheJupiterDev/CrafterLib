@@ -8,7 +8,7 @@
                         "condition": "minecraft:match_tool",
                         "predicate": {
                             "items": [
-                                "minecraft:armor_stand"
+                                "minecraft:bat_spawn_egg"
                             ]
                         }
                     }

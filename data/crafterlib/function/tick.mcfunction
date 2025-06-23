@@ -1,1 +1,1 @@
-execute as @e[tag=crafterlib.crafter] at @s run function crafterlib:crafterlib/crafter
+execute as @e[tag=crafterlib.crafter,type=item_display] at @s run function crafterlib:crafterlib/crafter
