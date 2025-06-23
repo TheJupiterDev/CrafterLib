@@ -1,6 +1,10 @@
 {
     "pack": {
         "description": "CrafterLib - A robust Custom Crafter library for Minecraft",
-        "pack_format": 71
+        "pack_format": 71,
+        "supported_formats": [
+            71,
+            80
+        ]
     }
 }
